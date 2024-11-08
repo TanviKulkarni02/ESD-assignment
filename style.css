@@ -1,0 +1,175 @@
+
+  h2{
+    font-weight: normal;
+    /* color: yellow; */
+    
+  }
+  
+  li {
+   
+    float: right;
+    display: inline;
+   
+
+  }
+  ul{
+    margin-left: 850px;
+    /* padding: 5x; */
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: yellow;
+    text-decoration: none;
+  
+  }
+.top{
+    display: flex;
+    border: 2px solid red;
+    flex-direction: row;
+}
+.mid{
+    border: 2px solid blue;
+    /* display: flex; */
+    /* flex-direction:column; */
+    
+}
+.last{
+    border: 2px solid green;
+}
+.full{
+   background-image: url("pizza.jpg");
+
+}
+
+.login{
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+    
+}
+
+.form{
+        
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        /* box-shadow: 0 4px 5px rgb(111, 109, 109); */
+        /* box-shadow: 0 -4px 15px rgb(165, 158, 158),0 -6px 30px rgb(165, 158, 158),0 -8px 60px rgb(165, 158, 158); */
+        box-shadow: 0 -4px 15px rgba(103, 99, 99, 0.7), 
+        0 -6px 30px rgba(103, 99, 99, 0.7), 
+        0 -8px 60px rgba(103, 99, 99, 0.7);
+        border-radius : 15px; 
+        background-color: white;
+        /* background-color: #8BC6EC;
+        background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); */
+        ;
+       
+       
+       
+        /* border: 6px solid red;
+         
+         box-shadow: 10px 10px 10px rgba(176, 165, 165, 0.3); 
+        filter: drop-shadow(10px 10px 10px rgba(200, 193, 193, 0.3)); 
+         height: 500px;
+        width: 900px;
+        margin: 70px;
+        padding: 50px; 
+         background-color: blue; */
+    height: 380px;
+    width: 300px;
+   
+   padding-right : 125px;
+    margin-left: 32%;
+    margin-top: 5%;
+}
+
+     
+
+p a{
+   color: red;
+   text-decoration: none;
+  
+}
+
+.button
+{
+    
+    background-color: blue;
+    color:white;
+    width: 161%; 
+    padding:10px;
+    border: none;
+    border-radius: 9px;
+}
+
+#fname{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 7px;
+    /* border-color:2px grey; */
+    border-width: 1.5px;   /* Ensure a consistent width */
+    border-style: solid;  /* Define the style */
+    border-color: grey;  /* Define the color */
+    width: 150%;
+}
+
+#email{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 7px;
+    border-width: 1.5px;   /* Ensure a consistent width */
+    border-style: solid;  /* Define the style */
+    border-color: grey;
+    width: 150%;
+}
+
+#pass{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 7px;
+    border-width: 1.5px;   /* Ensure a consistent width */
+    border-style: solid;  /* Define the style */
+    border-color: grey;
+    width: 150%;
+}
+#confirmpass{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 7px;
+    border-width: 1.5px;   /* Ensure a consistent width */
+    border-style: solid;  /* Define the style */
+    border-color: grey;
+    width: 150%;
+}
+.menu{
+    display:flex;
+    padding: 5px;
+    margin: 5px;
+}
+
+#dosa{
+    padding: 10px;
+}
+#idli{
+    padding: 10px;
+}
+#samosa{
+    padding: 10px;
+}
+#vada{
+    padding: 10px;
+}
+#burger{
+    padding: 10px;
+}
+#pizza{
+    padding: 10px;
+}
+#noodles{
+    padding: 10px;
+}
+#manchurian{
+    padding: 10px;
+}
